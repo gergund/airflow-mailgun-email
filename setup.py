@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="airflow_mailgun_email",
-    version="1.0.0",
+    version="1.0.2",
     author="Dinesh Sawant",
     author_email="dineshsawant300@gmail.com",
     description="Email Backend for Airflow To send email via Mailgun API",
@@ -18,7 +18,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=[
-        'requests'
-    ],
+    install_requires=['requests'],
 )
